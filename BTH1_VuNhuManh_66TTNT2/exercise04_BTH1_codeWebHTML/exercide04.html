@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Employee Form</title>
+</head>
+<body>
+
+    <form action="#" method="post">
+        
+        <h3>Basic Info</h3>
+        <hr align="left" width="600">
+        <table border="0" cellpadding="5" width="600">
+            <tr>
+                <td width="150"><b>Employee ID</b></td>
+                <td>9</td>
+            </tr>
+            <tr>
+                <td><b>Last Name</b></td>
+                <td>Dodsworth</td>
+            </tr>
+            <tr>
+                <td><b>First Name</b></td>
+                <td><input type="text" name="firstname" value="Anne"></td>
+            </tr>
+            <tr>
+                <td valign="top"><b>Gender</b></td>
+                <td>
+                    <input type="radio" name="gender" value="male"> Male <br>
+                    <input type="radio" name="gender" value="female"> Female <br>
+                    <input type="radio" name="gender" value="xxx"> XXX <br>
+                    <input type="radio" name="gender" value="zzz" checked> ZZZ
+                </td>
+            </tr>
+            <tr>
+                <td><b>Title</b></td>
+                <td><input type="text" name="title" value="Sales Representative" size="45"></td>
+            </tr>
+            <tr>
+                <td><b>Suffix</b></td>
+                <td><input type="text" name="suffix" value="Ms."></td>
+            </tr>
+            <tr>
+                <td><b>BirthDate</b></td>
+                <td><input type="text" name="birthdate" value="1969-07-02 00:00:00" size="30"></td>
+            </tr>
+            <tr>
+                <td><label><b>HireDate</b></label></td>
+                <td><input type="text" value="1994-11-15 00:00:00" size="45"></td>
+            </tr>
+            <tr>
+                <td><label><b>SSN #</b></label></td>
+                <td><input type="text" size="45"></td>
+            </tr>
+            <tr>
+                <td><label><b>Reports To</b></label></td>
+                <td>
+                    <select>
+                        <option>Buchanan</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <h3>Contact Info</h3>
+        <hr align="left" width="600">
+        <table border="0" cellpadding="5" width="600">
+            <tr>
+                <td width="150"><label><b>Email</b></label></td>
+                <td><input type="email" placeholder="name@example.com" size="45"></td>
+            </tr>
+            <tr>
+                <td><label><b>Address</b></label></td>
+                <td><input type="text" value="7 Houndstooth Rd." size="45"></td>
+            </tr>
+            <tr>
+                <td><label><b>City</b></label></td>
+                <td><input type="text" value="London" size="45"></td>
+            </tr>
+            <tr>
+                <td><label><b>Region</b></label></td>
+                <td><input type="text" size="45"></td>
+            </tr>
+            <tr>
+                <td><label><b>Postal Code</b></label></td>
+                <td><input type="text" value="WG2 7LT" size="45"></td>
+            </tr>
+            <tr>
+                <td><label><b>Country</b></label></td>
+                <td>
+                    <select>
+                        <option>Russian Federation</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label><b>Home Phone</b></label></td>
+                <td><input type="text" value="(234)234-2342" size="45"></td>
+            </tr>
+            <tr>
+                <td><label><b>Photo</b></label></td>
+                <td><input type="text" value="EmpID9.bmp" size="45"></td>
+            </tr>
+        </table>
+
+        <h3>Optional Info</h3>
+        <hr align="left" width="600">
+        <table border="0" cellpadding="5" width="600">
+            <tr valign="top">
+                <td width="150"><label><b>Notes</b></label></td>
+                <td>
+                    <fieldset>
+                        <legend><small>Toolbar</small></legend>
+                        <textarea rows="5" cols="45">Anne has a BA degree in English from St. Lawrence College. She is fluent in French and German.</textarea>
+                    </fieldset>
+                </td>
+            </tr>
+            <tr>
+                <td><label><b>Preferred Shift</b></label></td>
+                <td>
+                    <input type="checkbox" id="regular"> <label for="regular">Regular</label>
+                    <input type="checkbox" id="gravy" checked> <label for="gravy">Gravy Yard</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label><b>Active?</b></label></td>
+                <td><input type="checkbox" checked></td>
+            </tr>
+            <tr>
+                <td valign="top"><label><b>Are you human?</b></label></td>
+                <td>
+                    <div style="font-family: monospace; letter-spacing: 5px; font-size: 18px; background-color: #eee; width: fit-content; padding: 5px;">T I D A W O</div>
+                    <small>Click to change</small><br>
+                    <input type="text" size="45">
+                </td>
+            </tr>
+        </table>
+
+        <hr align="left" width="600">
+
+        <table border="0" width="600">
+            <tr>
+                <td>
+                    <button type="button">◀</button>
+                    <button type="button">▶</button>
+                    <br>
+                    <small>* required</small>
+                </td>
+                <td align="right">
+                    <button type="submit">💾 Submit</button>
+                    <button type="button">✖ Cancel</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
